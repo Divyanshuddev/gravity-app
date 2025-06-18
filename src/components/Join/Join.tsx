@@ -12,8 +12,20 @@ const styles = {
     backgroundSize: "contain",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    width: 800,
-    height: 800,
+    width: {
+      lg:800,
+      md:600,
+      sm:350,
+      xs:350
+    },
+    height: {
+      lg:800,
+      md:600,
+      sm:350,
+      xs:350
+    },
+
+
   },
   textStyles: {
     fontSize: {

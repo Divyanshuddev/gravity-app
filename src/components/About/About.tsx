@@ -4,131 +4,131 @@ const styles = {
   root: {
     width: "100%",
     minHeight: "100vh",
-    maxHeight:"auto"
-
+    maxHeight: "auto",
   },
   textStyles: {
     fontSize: {
-      lg:60,
-      md:50,
-      sm:30,
-      xs:30
+      lg: 60,
+      md: 50,
+      sm: 30,
+      xs: 30,
     },
     fontFamily: "Inter",
     fontWeight: "bold",
   },
   details: {
     width: {
-      lg:"30%",
-      md:"30%",
-      sm:"75%",
-      xs:"80%"
+      lg: "30%",
+      md: "30%",
+      sm: "75%",
+      xs: "80%",
     },
-    fontSize:{
-      lg:13,
-      md:14,
-      sm:16,
-      xs:16
+    fontSize: {
+      lg: 13,
+      md: 14,
+      sm: 16,
+      xs: 16,
     },
     color: "gray",
-    textAlign:"center"
+    textAlign: "center",
   },
   title: {
     fontSize: 30,
     fontFamily: "Inter",
     fontWeight: "bold",
   },
-  detailStack:{
-    width:"50%"
+  detailStack: {
+    width: "50%",
   },
-  card:{
-    padding:2,
-    height:150,
-    "&:hover":{
-        background: "linear-gradient(90deg, rgba(102, 93, 205, 1) 0%, rgba(95, 164, 230, 1) 45%, rgba(210, 171, 103, 1) 100%)",
-
-    }
+  card: {
+    boxSizing: "border-box",
+    padding: 2,
+    height: 150,
+    "&:hover": {
+      background:
+        "linear-gradient(90deg, rgba(102, 93, 205, 1) 0%, rgba(95, 164, 230, 1) 45%, rgba(210, 171, 103, 1) 100%)",
+    },
   },
-  mainCard:{
-    "& > :nth-child(1)":{
-        borderRight:{
-          lg:"1px solid #665DCD",
-          md:"1px solid #665DCD",
-          sm:"none",
-          xs:"none"
-        },
-        borderBottom:"1px solid #665DCD"
+  mainCard: {
+    "& > :nth-child(1)": {
+      borderRight: {
+        lg: "1px solid #665DCD",
+        md: "1px solid #665DCD",
+        sm: "none",
+        xs: "none",
+      },
+      borderBottom: "1px solid #665DCD",
     },
-    "& > :nth-child(2)":{
-        borderRight:{
-          lg:"1px solid #665DCD",
-          md:"1px solid #665DCD",
-          sm:"none",
-          xs:"none"
-        },
-        borderBottom:"1px solid #665DCD"
+    "& > :nth-child(2)": {
+      borderRight: {
+        lg: "1px solid #665DCD",
+        md: "1px solid #665DCD",
+        sm: "none",
+        xs: "none",
+      },
+      borderBottom: "1px solid #665DCD",
     },
-    "& > :nth-child(3)":{
-         borderRight:{
-          lg:"1px solid #665DCD",
-          md:"1px solid #665DCD",
-          sm:"none",
-          xs:"none"
-        },
-        borderBottom:"1px solid #665DCD"
+    "& > :nth-child(3)": {
+      borderRight: {
+        lg: "1px solid #665DCD",
+        md: "1px solid #665DCD",
+        sm: "none",
+        xs: "none",
+      },
+      borderBottom: "1px solid #665DCD",
     },
-    "& > :nth-child(4)":{
-         borderRight:{
-          lg:"none",
-          md:"none",
-          sm:"none",
-          xs:"none"
-        },
-        borderBottom:"1px solid #665DCD"
+    "& > :nth-child(4)": {
+      borderRight: {
+        lg: "none",
+        md: "none",
+        sm: "none",
+        xs: "none",
+      },
+      borderBottom: "1px solid #665DCD",
     },
-    "& > :nth-child(5)":{
-         borderRight:{
-          lg:"1px solid #665DCD",
-          md:"1px solid #665DCD",
-          sm:"none",
-          xs:"none"
-        },
-        borderBottom:{
-          xs:"1px solid #665DCD",
-          sm:"1px solid #665DCD",
-          md:"none",
-          lg:"none"
-        },
+    "& > :nth-child(5)": {
+      borderRight: {
+        lg: "1px solid #665DCD",
+        md: "1px solid #665DCD",
+        sm: "none",
+        xs: "none",
+      },
+      borderBottom: {
+        xs: "1px solid #665DCD",
+        sm: "1px solid #665DCD",
+        md: "none",
+        lg: "none",
+      },
     },
-    "& > :nth-child(6)":{
-         borderRight:{
-          lg:"1px solid #665DCD",
-          md:"1px solid #665DCD",
-          sm:"none",
-          xs:"none"
-        },
-        borderBottom:{
-          xs:"1px solid #665DCD",
-          sm:"1px solid #665DCD",
-          md:"none",
-          lg:"none"
-        },
+    "& > :nth-child(6)": {
+      borderRight: {
+        lg: "1px solid #665DCD",
+        md: "1px solid #665DCD",
+        sm: "none",
+        xs: "none",
+      },
+      borderBottom: {
+        xs: "1px solid #665DCD",
+        sm: "1px solid #665DCD",
+        md: "none",
+        lg: "none",
+      },
     },
-    "& > :nth-child(7)":{
-         borderRight:{
-          lg:"1px solid #665DCD",
-          md:"1px solid #665DCD",
-          sm:"none",
-          xs:"none"
-        },
-        borderBottom:{
-          xs:"1px solid #665DCD",
-          sm:"1px solid #665DCD",
-          md:"none",
-          lg:"none"
-        },
+    "& > :nth-child(7)": {
+      borderRight: {
+        lg: "1px solid #665DCD",
+        md: "1px solid #665DCD",
+        sm: "none",
+        xs: "none",
+      },
+      borderBottom: {
+        xs: "1px solid #665DCD",
+        sm: "1px solid #665DCD",
+        md: "none",
+        lg: "none",
+      },
     },
-  }
+  },
 };
 const cardsData = [
   {
@@ -174,16 +174,22 @@ const About = () => {
         founded by traders, developers, and innovators who are strong believers
         and supporters of the future of decentralization and digital assets.
       </Typography>
-      <Grid container spacing={0} width={'80%'} sx={styles.mainCard}>
+      <Grid container spacing={0} width={"80%"} sx={styles.mainCard}>
         {cardsData.map((value, index) => {
           return (
-            <Grid size={{lg:3,md:3,sm:12,xs:12}} key={index}>
-              <Stack alignItems={"center"}  sx={styles.card} justifyContent={'center'}>
+            <Grid size={{ lg: 3, md: 3, sm: 12, xs: 12 }} key={index}>
+              <Stack
+                alignItems={"center"}
+                sx={styles.card}
+                justifyContent={"center"}
+              >
                 <Typography sx={styles.title}>{value.title}</Typography>
-                <Stack sx={styles.detailStack} alignItems={'center'} textAlign={'center'}>
-                <Typography >
-                  {value.details}
-                </Typography>
+                <Stack
+                  sx={styles.detailStack}
+                  alignItems={"center"}
+                  textAlign={"center"}
+                >
+                  <Typography>{value.details}</Typography>
                 </Stack>
               </Stack>
             </Grid>

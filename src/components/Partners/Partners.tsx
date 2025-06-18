@@ -85,6 +85,7 @@ const styles = {
       sm: 500,
       xs: 400,
     },
+    objectFit:"contain",
     marginTop: {
       lg: 60,
       md: 50,

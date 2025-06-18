@@ -32,17 +32,35 @@ const styles = {
     width: "100%",
     height: 700,
     objectFit: "cover",
+     display:{
+      lg:"flex",
+      md:"flex",
+      sm:"none",
+      xs:"none"
+    }
   },
   blur3: {
     width: "100%",
     height: 400,
     objectFit: "cover",
+     display:{
+      lg:"flex",
+      md:"flex",
+      sm:"none",
+      xs:"none"
+    }
     
   },
   blur4: {
     width: "100%",
     height: 400,
     objectFit: "cover",
+     display:{
+      lg:"flex",
+      md:"flex",
+      sm:"none",
+      xs:"none"
+    }
     
   },
   contactStack: {

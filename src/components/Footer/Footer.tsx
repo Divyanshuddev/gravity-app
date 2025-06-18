@@ -4,13 +4,14 @@ const styles = {
   root: {
     width: "100%",
     height: "50vh",
+    boxSizing: "border-box",
     padding: {
       lg: 15,
       md: 15,
       sm: 10,
       xs: 10,
     },
-    boxSizing: "border-box",
+    
   },
   logo: {
     width: 150,
